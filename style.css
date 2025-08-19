@@ -24,9 +24,10 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    animation: slider 12s infinite, fade 4s;
 }
-
+.carrosel.rodando{
+    animation: slider 20s infinite, fade 4s;
+}
 .nome{
     border-radius: 5px;
     width: 40%;
@@ -54,13 +55,13 @@
     0%, 5% { background-image: url(img/Atlético\ Mineiro\ HD.png); }
     5.01%, 10% { background-image: url(./img/Bahia\ HD.png); }
     10.01%, 15% { background-image: url(./img/Botafogo\ HD.png); }
-    15.01%, 20% { background-image: url(./img/Ceará\ HD.png); }
+    15.01%, 20% { background-image: url(img/Ceará\ HD.png); }
     20.01%, 25% { background-image: url(./img/Corinthians\ HD.png); }
     25.01%, 30% { background-image: url(./img/Cruzeiro\ HD.png); }
     30.01%, 35% { background-image: url(./img/Flamengo\ HD.png) }
     35.01%, 40% { background-image: url(./img/Fluminense\ HD.png); }
     40.01%, 45% { background-image: url(./img/Fortaleza\ HD.png); }
-    45.01%, 50% { background-image: url(./img/Grêmio\ HD.png); }
+    45.01%, 50% { background-image: url(./img/Gremio\ HD.png); }
     50.01%, 55% { background-image: url(./img/Internacional\ HD.png); }
     55.01%, 60% { background-image: url(./img/Juventude\ HD.png); }
     60.01%, 65% { background-image: url(./img/Mirassol-SP\ HD.png); }
@@ -70,7 +71,7 @@
     80.01%, 85% { background-image: url(./img/Sport\ Recife\ HD.png); }
     85.01%, 90% { background-image: url(./img/São\ Paulo\ HD.png); }
     90.01%, 95% { background-image: url(./img/Vasco\ da\ Gama\ HD.png); }
-    95.01%, 100% { background-image: url(./img/Vitória\ HD.png); }
+    95.01%, 100% { background-image: url(./img/Vitoria\ HD.png); }
 }
 
 @keyframes fade {
